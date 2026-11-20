@@ -1,0 +1,64 @@
+# 01-scope-and-assets
+# 1. Purpose
+This document defines the scope of my personal homelab security assessment and identifies the infrastructure, devices and services included.
+The inventory will serve as a reference for evaluating security controls, identifyingrisks and tracking remediation activities.
+
+# 2. Assessment Scope
+The assessment focuses on my personal homelab infrastructure and its security configration.
+
+# In Scope:
+- Dell OptiPlex 7050 Micro
+- Ubuntu operating system
+- Docker containers and services
+- Asus Router
+- Tp-Link easy managed switch
+- Pi-Hole DNS filtering
+- Wazuh security monitoring
+- Network access controls andexposed services
+
+# 3. Hardware Inventory
+| **Asset Id** | **Device**               | **Purpose**                     |
+|--------------|--------------------------|---------------------------------|
+| HW-01        | Dell OptiPlex 7050 Micro | Primary Homelab Server          |
+| HW-02        | ASUS ROG Rapture AX11000 | Home Router and Network Gateway |
+| HW-03        | TP-Link ES205G           | Network Switch                  |
+| HW-04        | External Storage Devices | Storage for Server Data         |
+| HW-05        | Raspberry Pi Devices     | Experimental Computing Devices  |
+
+# 4. Software and Service Inventory
+| **Asset Id** | **Software and Service** | **Function**            |
+|--------------|--------------------------|-------------------------|
+| SW-01        | Ubunu24.04 LTS           | Server Operating System |
+| SW-02        | Docker                   | Container Management    |
+| SW-03        | Pi-Hole                  | DNS Filtering           |
+| SW-04        | Wazuh                    | Security Monitoring     |
+| SW-05        | Caddy                    | Reverse Proxy           |
+| SW-06        | Jellyfin                 | Media Server            |
+| SW-07        | Home Assistant           | Smart Home Management   |
+
+# 5. Assets Requiring Security Review
+The assessment will investigate:
+- Operating system updates and patch management
+- User accounts and adminstrative privilages
+- Network configuration and segmentation
+- Firewall rules nad exposed ports
+- Docker container permissions and network access
+- DNS configurations
+- Security logging anf monitoring 
+- Backup and recovery procedures
+- Remote administration access
+
+# 6. Assessment Limitations
+This assessment is conducted in a live personal homelab environment.
+Tesing will be limited to systems under my control and will prioritise non-disruptive techniques. 
+Sensitive information such as, passwords, authentication tokens, public IP addresses and private configuration details will not be published. 
+
+# 7. Next Steps
+1. Document existing network architecture.
+2. Identify current security controls. 
+3. Conduct a configuration security review.
+4. Record findings in a risk register.
+5. Recommend and validate security improvements
+
+# Assessment status: In Progress
+# Assessment Type: Personal homelab security review
