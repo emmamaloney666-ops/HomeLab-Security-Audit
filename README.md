@@ -26,15 +26,15 @@ The assessment covers my self hosted homelab, including:
 - Security monitoring (Wazuh)
 - Network connected devices and services
 
-  # Assessment Methodology
-  This assessment will follow this process:
-  1. Scope and Asset identification
-  2. Security Review
-  3. Risk Assessment
-  4. Recommendations
-  5. Implementation and Validation
-  6. Reporting
-  The assessment will draw from relevant guidance such as the ACSC Essential Eight, the ASD Information Security Manual, and ISO/IEC 27001 and 27005 when applicable.
+# Assessment Methodology
+This assessment will follow this process:
+1. Scope and Asset identification
+2. Security Review
+3. Risk Assessment
+4. Recommendations
+5. Implementation and Validation
+6. Reporting
+The assessment will draw from relevant guidance such as the ACSC Essential Eight, the ASD Information Security Manual, and ISO/IEC 27001 and 27005 when applicable.
 
 # Current Progress
 The assessment is current in its initial documentation and planning stage. 
